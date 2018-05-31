@@ -1,10 +1,5 @@
 import java.util.ArrayList;
 
-//This exists just in case I actually ever decide to do anything with this
-enum MotionProfileType {
-	POSITION_BASED, TIMEY_TRAPEZOID, S_CURVE;
-}
-
 public class MotionProfiler {
 	
 	private MotionProfileType m_profileType;
